@@ -1,0 +1,54 @@
+.code
+extern mProcs:QWORD
+GetFileVersionInfoA_proxy proc
+	jmp mProcs[0*8]
+GetFileVersionInfoA_proxy endp
+GetFileVersionInfoByHandle_proxy proc
+	jmp mProcs[1*8]
+GetFileVersionInfoByHandle_proxy endp
+GetFileVersionInfoExA_proxy proc
+	jmp mProcs[2*8]
+GetFileVersionInfoExA_proxy endp
+GetFileVersionInfoExW_proxy proc
+	jmp mProcs[3*8]
+GetFileVersionInfoExW_proxy endp
+GetFileVersionInfoSizeA_proxy proc
+	jmp mProcs[4*8]
+GetFileVersionInfoSizeA_proxy endp
+GetFileVersionInfoSizeExA_proxy proc
+	jmp mProcs[5*8]
+GetFileVersionInfoSizeExA_proxy endp
+GetFileVersionInfoSizeExW_proxy proc
+	jmp mProcs[6*8]
+GetFileVersionInfoSizeExW_proxy endp
+GetFileVersionInfoSizeW_proxy proc
+	jmp mProcs[7*8]
+GetFileVersionInfoSizeW_proxy endp
+GetFileVersionInfoW_proxy proc
+	jmp mProcs[8*8]
+GetFileVersionInfoW_proxy endp
+VerFindFileA_proxy proc
+	jmp mProcs[9*8]
+VerFindFileA_proxy endp
+VerFindFileW_proxy proc
+	jmp mProcs[10*8]
+VerFindFileW_proxy endp
+VerInstallFileA_proxy proc
+	jmp mProcs[11*8]
+VerInstallFileA_proxy endp
+VerInstallFileW_proxy proc
+	jmp mProcs[12*8]
+VerInstallFileW_proxy endp
+VerLanguageNameA_proxy proc
+	jmp mProcs[13*8]
+VerLanguageNameA_proxy endp
+VerLanguageNameW_proxy proc
+	jmp mProcs[14*8]
+VerLanguageNameW_proxy endp
+VerQueryValueA_proxy proc
+	jmp mProcs[15*8]
+VerQueryValueA_proxy endp
+VerQueryValueW_proxy proc
+	jmp mProcs[16*8]
+VerQueryValueW_proxy endp
+end
